@@ -31,6 +31,9 @@ En english : https://www.sitepoint.com/ajaxjquery-getjson-simple-example/
 Exercice AJAX :  
   - En utilisant la fonction ajax() de jquery, chargez le contenu du fichier contenu.html dans la div resultatAjax
 
+  https://api.jquery.com/jQuery.getJSON/  
+  https://api.jquery.com/jQuery.ajax/  
+
 
 - JSON ( format de données ):  
 **J**ava**S**cript **O**bject **N**otation  
