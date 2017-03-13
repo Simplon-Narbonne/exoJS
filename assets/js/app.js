@@ -16,8 +16,7 @@
 $('#check').click(
   function(){
     $.ajax({
-      url: "contenu.html",
-      context: document.body
+      url: "contenu.html"
     }).done(function(data) {
       console.log(data);
       $("#resultatAjax").html( data );
