@@ -12,25 +12,8 @@
 // FIN REVISIONS
 //
 // COURS AJAX
-// Avec la methode load()
-$('#check').click(
-  function(){
-    $("#resultatAjax").load("contenu.html");
-  }
-);
 
 // Faire une requete en ajax pour charger de façon asynchrone le html du fichier contenu.html
-
-$('#check').click(
-  function(){
-    $.ajax({
-      url: "contenu.html"
-    }).done(function(data) {
-      console.log(data);
-      $("#resultatAjax").html( data );
-    });
-  }
-);
 
 // COURS AJAX vers des API
   // AJAX Jquery .ajax() ou .getJSON()
